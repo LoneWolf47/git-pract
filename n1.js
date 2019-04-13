@@ -1,7 +1,7 @@
 const MongoClient = require('mongodb').MongoClient
 const uri = process.env.MONGODB_URI || `mongodb://localhost:27017`
-const dbName ='titan'
-const collectionName = 'tickets'
+const dbName ='tan'
+const collectionName = 'tick'
 let client = MongoClient.connect(uri, { useNewUrlParser: true })
 let dbObject = client
   .then(clientObj => {
