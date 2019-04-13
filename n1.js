@@ -8,4 +8,4 @@ let dbObject = client
     console.log('Connection to DB successful')
     return clientObj.db(dbName).collection(collectionName)
   })
-  .catch(err => new Error('Connection to DB failed: ', err))
+
